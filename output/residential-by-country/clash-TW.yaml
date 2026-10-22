@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: ios
+  client-fingerprint: safari
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   type: vmess
   server: 9641684.sdf65h4.top
@@ -29,7 +29,7 @@ proxies:
   servername: ''
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe

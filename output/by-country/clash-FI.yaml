@@ -31,15 +31,17 @@ proxies:
     headers:
       Host: 45.144.234.157
 - name: 🇫🇮 FI 03 - xiaohe
-  type: vmess
-  server: 65.108.240.210
-  port: 39018
-  uuid: 77fb7a80-4724-4e33-9558-4f20c1634c5a
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 76574ct.nl7.h1clayd.click
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: 9zW5lTDbs9svY-lzlPp-pq0j2Sr6g031SY0E-3xSHDc
+  servername: 76574ct.nl7.h1clayd.click
+  client-fingerprint: chrome
 - name: 🇫🇮 FI 04 - xiaohe
   type: vless
   server: 45.144.234.157

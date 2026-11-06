@@ -32,18 +32,6 @@ proxies:
       Host: 45.144.234.157
 - name: 🇫🇮 FI 03 - xiaohe
   type: vless
-  server: 76574ct.nl7.h1clayd.click
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 9zW5lTDbs9svY-lzlPp-pq0j2Sr6g031SY0E-3xSHDc
-  servername: 76574ct.nl7.h1clayd.click
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 04 - xiaohe
-  type: vless
   server: 45.144.234.157
   port: 14430
   uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
@@ -63,7 +51,6 @@ proxy-groups:
   - 🇫🇮 FI 01 - xiaohe
   - 🇫🇮 FI 02 - xiaohe
   - 🇫🇮 FI 03 - xiaohe
-  - 🇫🇮 FI 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -72,6 +59,5 @@ proxy-groups:
   - 🇫🇮 FI 01 - xiaohe
   - 🇫🇮 FI 02 - xiaohe
   - 🇫🇮 FI 03 - xiaohe
-  - 🇫🇮 FI 04 - xiaohe
 rules:
 - MATCH,PROXIES

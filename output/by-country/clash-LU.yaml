@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
+- name: 🇱🇺 LU 01 - xiaohe
   type: vless
-  server: 104.18.155.229
+  server: subgift.gcorecdn.com
   port: 443
-  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
+  uuid: 740b2630-b42d-425c-bacd-37e7e30d78f1
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: www.genflix.co.id.r3xxe.eu.cc
+  servername: subgift.gcorecdn.com
   network: ws
   ws-opts:
-    path: /au-do
+    path: /t.me-SubGift
     headers:
-      Host: www.genflix.co.id.r3xxe.eu.cc
+      Host: subgift.gcorecdn.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
+  - 🇱🇺 LU 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
+  - 🇱🇺 LU 01 - xiaohe
 rules:
 - MATCH,PROXIES
